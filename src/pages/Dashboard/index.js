@@ -44,6 +44,7 @@ export default function Dashboard() {
         const compareDate = utcToZonedTime(checkDate, timezone);
 
         /**
+         * Appointment:
          * por algum motivo o isEqual não funcionou
          * tive que converter as datas em string e compara-las
          * Gambiarra is true!
